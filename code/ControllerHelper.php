@@ -13,6 +13,15 @@ trait CSSClasses {
 
 }
 
+trait Theme {
+	
+	function ThemeDir() {
+		$theme = \SilverStripe\View\SSViewer::get_themes();
+		return \SilverStripe\View\ThemeResourceLoader::inst()->getThemePaths($theme)[0];
+	}
+	
+}
+
 trait Permissions {
 
 	function CurrentMemberHasPermission($permissionCode) {
