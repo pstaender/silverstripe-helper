@@ -1,0 +1,24 @@
+{
+    "name": "pstaender/silverstripe-helper",
+    "description": "Collection of string manipulation and controller helpers",
+    "type": "silverstripe-module",
+    "homepage": "https://github.com/pstaender/silverstripe-helpers",
+    "keywords": [
+        "silverstripe", "string manipulation", "markdown", "helper"
+    ],
+    "license": "GNU General Public License v2",
+    "authors": [
+        {
+            "name": "Philipp Staender",
+            "email": "philipp.staender@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "silverstripe/framework": ">=4",
+        "league/html-to-markdown": "^4.4",
+        "michelf/php-markdown": "^1.7",
+        "soundasleep/html2text": "^0.5.0"
+    },
+    "minimum-stability": "dev"
+}
